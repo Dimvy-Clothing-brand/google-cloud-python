@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.6.18](https://github.com/googleapis/google-cloud-python/compare/google-cloud-eventarc-publishing-v0.6.17...google-cloud-eventarc-publishing-v0.6.18) (2025-03-15)
+
+
+### Bug Fixes
+
+* [Many APIs] Allow Protobuf 6.x ([e06ee32](https://github.com/googleapis/google-cloud-python/commit/e06ee325de4125cdfcaf040a77dc9ccc82843260))
+* remove setup.cfg configuration for creating universal wheels ([#13659](https://github.com/googleapis/google-cloud-python/issues/13659)) ([59bfd42](https://github.com/googleapis/google-cloud-python/commit/59bfd42cf8a2eaeed696a7504890bce5aae815ce))
+
+
+### Documentation
+
+* [google-cloud-eventarc-publishing] Minor documentation improvements ([#13650](https://github.com/googleapis/google-cloud-python/issues/13650)) ([daf198c](https://github.com/googleapis/google-cloud-python/commit/daf198cd99ed710037b0120509af399aed3bcd25))
+
+## [0.6.17](https://github.com/googleapis/google-cloud-python/compare/google-cloud-eventarc-publishing-v0.6.16...google-cloud-eventarc-publishing-v0.6.17) (2025-03-06)
+
+
+### Documentation
+
+* [google-cloud-eventarc-publishing] Documentation improvements for the Publisher service ([#13613](https://github.com/googleapis/google-cloud-python/issues/13613)) ([4a1f534](https://github.com/googleapis/google-cloud-python/commit/4a1f53417b480307c6896ea3030dbf61f8db48a7))
+
 ## [0.6.16](https://github.com/googleapis/google-cloud-python/compare/google-cloud-eventarc-publishing-v0.6.15...google-cloud-eventarc-publishing-v0.6.16) (2025-02-12)
 
 

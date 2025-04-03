@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -120,6 +120,11 @@ from .types.space_event import (
     ListSpaceEventsResponse,
     SpaceEvent,
 )
+from .types.space_notification_setting import (
+    GetSpaceNotificationSettingRequest,
+    SpaceNotificationSetting,
+    UpdateSpaceNotificationSettingRequest,
+)
 from .types.space_read_state import (
     GetSpaceReadStateRequest,
     SpaceReadState,
@@ -168,6 +173,7 @@ __all__ = (
     "GetMembershipRequest",
     "GetMessageRequest",
     "GetSpaceEventRequest",
+    "GetSpaceNotificationSettingRequest",
     "GetSpaceReadStateRequest",
     "GetSpaceRequest",
     "GetThreadReadStateRequest",
@@ -213,12 +219,14 @@ __all__ = (
     "Space",
     "SpaceBatchUpdatedEventData",
     "SpaceEvent",
+    "SpaceNotificationSetting",
     "SpaceReadState",
     "SpaceUpdatedEventData",
     "Thread",
     "ThreadReadState",
     "UpdateMembershipRequest",
     "UpdateMessageRequest",
+    "UpdateSpaceNotificationSettingRequest",
     "UpdateSpaceReadStateRequest",
     "UpdateSpaceRequest",
     "UploadAttachmentRequest",

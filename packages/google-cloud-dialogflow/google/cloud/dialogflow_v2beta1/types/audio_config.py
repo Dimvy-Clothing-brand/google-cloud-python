@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -778,8 +778,10 @@ class SpeechToTextConfig(proto.Message):
             settings <https://cloud.google.com/dialogflow/cx/docs/concept/agent#settings-speech>`__
             for model selection.
         phrase_sets (MutableSequence[str]):
-            List of names of Cloud Speech phrase sets
-            that are used for transcription.
+            List of names of Cloud Speech phrase sets that are used for
+            transcription. For phrase set limitations, please refer to
+            `Cloud Speech API quotas and
+            limits <https://cloud.google.com/speech-to-text/quotas#content>`__.
         audio_encoding (google.cloud.dialogflow_v2beta1.types.AudioEncoding):
             Audio encoding of the audio content to
             process.

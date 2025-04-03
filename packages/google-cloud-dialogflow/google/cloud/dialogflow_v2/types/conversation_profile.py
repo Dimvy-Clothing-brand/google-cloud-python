@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -1150,6 +1150,9 @@ class SuggestionFeature(proto.Message):
                 Run FAQ model for chat.
             SMART_REPLY (3):
                 Run smart reply model for chat.
+            CONVERSATION_SUMMARIZATION (8):
+                Run conversation summarization model for
+                chat.
             KNOWLEDGE_SEARCH (14):
                 Run knowledge search with text input from
                 agent or text generated query.
@@ -1161,6 +1164,7 @@ class SuggestionFeature(proto.Message):
         ARTICLE_SUGGESTION = 1
         FAQ = 2
         SMART_REPLY = 3
+        CONVERSATION_SUMMARIZATION = 8
         KNOWLEDGE_SEARCH = 14
         KNOWLEDGE_ASSIST = 15
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -39,7 +39,11 @@ def sample_generate_stateless_suggestion():
     client = dialogflow_v2.ConversationsClient()
 
     # Initialize request argument(s)
+    generator = dialogflow_v2.Generator()
+    generator.published_model = "published_model_value"
+
     request = dialogflow_v2.GenerateStatelessSuggestionRequest(
+        generator=generator,
         parent="parent_value",
     )
 

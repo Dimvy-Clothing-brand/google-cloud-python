@@ -4,6 +4,48 @@
 
 [1]: https://pypi.org/project/google-cloud-dialogflow/#history
 
+## [2.41.1](https://github.com/googleapis/google-cloud-python/compare/google-cloud-dialogflow-v2.41.0...google-cloud-dialogflow-v2.41.1) (2025-03-15)
+
+
+### Bug Fixes
+
+* [Many APIs] Allow Protobuf 6.x ([feb5353](https://github.com/googleapis/google-cloud-python/commit/feb53532240bb70a94b359b519f0f41f95875a33))
+* remove setup.cfg configuration for creating universal wheels ([#13659](https://github.com/googleapis/google-cloud-python/issues/13659)) ([59bfd42](https://github.com/googleapis/google-cloud-python/commit/59bfd42cf8a2eaeed696a7504890bce5aae815ce))
+
+## [2.41.0](https://github.com/googleapis/google-cloud-python/compare/google-cloud-dialogflow-v2.40.0...google-cloud-dialogflow-v2.41.0) (2025-03-09)
+
+
+### Features
+
+* Add new RPC IngestContextReferences, GenerateSuggestions ([b1ab233](https://github.com/googleapis/google-cloud-python/commit/b1ab233a031c0d43a9aa23ca3242a17d14bbdf2e))
+
+
+### Documentation
+
+* clarified wording around phrase_sets ([b1ab233](https://github.com/googleapis/google-cloud-python/commit/b1ab233a031c0d43a9aa23ca3242a17d14bbdf2e))
+
+## [2.40.0](https://github.com/googleapis/google-cloud-python/compare/google-cloud-dialogflow-v2.39.1...google-cloud-dialogflow-v2.40.0) (2025-03-06)
+
+
+### Features
+
+* Add new RPC IngestContextReferences, GenerateSuggestions ([877851d](https://github.com/googleapis/google-cloud-python/commit/877851d800121150fee1a47ab5771222461753e8))
+
+
+### Documentation
+
+* clarified wording around phrase_sets ([877851d](https://github.com/googleapis/google-cloud-python/commit/877851d800121150fee1a47ab5771222461753e8))
+
+## [2.39.1](https://github.com/googleapis/google-cloud-python/compare/google-cloud-dialogflow-v2.39.0...google-cloud-dialogflow-v2.39.1) (2025-03-03)
+
+
+### Documentation
+
+* **v2beta1:** clarified wording around BoostSpec and filter_specs ([e262c10](https://github.com/googleapis/google-cloud-python/commit/e262c1022982bedba36c25ebe1583cf71dba705a))
+* **v2beta1:** clarified wording around document_correctness ([e262c10](https://github.com/googleapis/google-cloud-python/commit/e262c1022982bedba36c25ebe1583cf71dba705a))
+* **v2beta1:** clarified wording around send_time ([e262c10](https://github.com/googleapis/google-cloud-python/commit/e262c1022982bedba36c25ebe1583cf71dba705a))
+* **v2beta1:** clarified wording around use_timeout_based_endpointing ([e262c10](https://github.com/googleapis/google-cloud-python/commit/e262c1022982bedba36c25ebe1583cf71dba705a))
+
 ## [2.39.0](https://github.com/googleapis/google-cloud-python/compare/google-cloud-dialogflow-v2.38.0...google-cloud-dialogflow-v2.39.0) (2025-02-12)
 
 

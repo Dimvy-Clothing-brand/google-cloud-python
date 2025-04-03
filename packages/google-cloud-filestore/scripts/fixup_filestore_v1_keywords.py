@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -50,7 +50,8 @@ class filestoreCallTransformer(cst.CSTTransformer):
         'get_snapshot': ('name', ),
         'list_backups': ('parent', 'page_size', 'page_token', 'order_by', 'filter', ),
         'list_instances': ('parent', 'page_size', 'page_token', 'order_by', 'filter', ),
-        'list_snapshots': ('parent', 'page_size', 'page_token', 'order_by', 'filter', ),
+        'list_snapshots': ('parent', 'page_size', 'page_token', 'order_by', 'filter', 'return_partial_success', ),
+        'promote_replica': ('name', 'peer_instance', ),
         'restore_instance': ('name', 'file_share', 'source_backup', ),
         'revert_instance': ('name', 'target_snapshot_id', ),
         'update_backup': ('backup', 'update_mask', ),

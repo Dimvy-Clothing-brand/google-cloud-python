@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -80,9 +80,6 @@ class kmsCallTransformer(cst.CSTTransformer):
         'update_ekm_config': ('ekm_config', 'update_mask', ),
         'update_ekm_connection': ('ekm_connection', 'update_mask', ),
         'verify_connectivity': ('name', ),
-    'get_iam_policy': ('resource', 'options', ),
-    'set_iam_policy': ('resource', 'policy', ),
-    'test_iam_permissions': ('resource', 'permissions', ),
     }
 
     def leave_Call(self, original: cst.Call, updated: cst.Call) -> cst.CSTNode:

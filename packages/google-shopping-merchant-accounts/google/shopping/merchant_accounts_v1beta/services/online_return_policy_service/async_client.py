@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -321,7 +321,7 @@ class OnlineReturnPolicyServiceAsyncClient:
         timeout: Union[float, object] = gapic_v1.method.DEFAULT,
         metadata: Sequence[Tuple[str, Union[str, bytes]]] = (),
     ) -> online_return_policy.OnlineReturnPolicy:
-        r"""Gets an existing return policy.
+        r"""Gets an existing return policy for a given business.
 
         .. code-block:: python
 
@@ -436,7 +436,8 @@ class OnlineReturnPolicyServiceAsyncClient:
         timeout: Union[float, object] = gapic_v1.method.DEFAULT,
         metadata: Sequence[Tuple[str, Union[str, bytes]]] = (),
     ) -> pagers.ListOnlineReturnPoliciesAsyncPager:
-        r"""Lists all existing return policies.
+        r"""Lists all existing return policies for a given
+        business.
 
         .. code-block:: python
 
@@ -470,7 +471,7 @@ class OnlineReturnPolicyServiceAsyncClient:
                 The request object. Request message for the ``ListOnlineReturnPolicies``
                 method.
             parent (:class:`str`):
-                Required. The merchant account for which to list return
+                Required. The business account for which to list return
                 policies. Format: ``accounts/{account}``
 
                 This corresponds to the ``parent`` field

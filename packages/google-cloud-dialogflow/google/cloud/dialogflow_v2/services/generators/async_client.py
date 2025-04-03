@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -320,8 +320,12 @@ class GeneratorsAsyncClient:
                 client = dialogflow_v2.GeneratorsAsyncClient()
 
                 # Initialize request argument(s)
+                generator = dialogflow_v2.Generator()
+                generator.published_model = "published_model_value"
+
                 request = dialogflow_v2.CreateGeneratorRequest(
                     parent="parent_value",
+                    generator=generator,
                 )
 
                 # Make the request
@@ -791,7 +795,11 @@ class GeneratorsAsyncClient:
                 client = dialogflow_v2.GeneratorsAsyncClient()
 
                 # Initialize request argument(s)
+                generator = dialogflow_v2.Generator()
+                generator.published_model = "published_model_value"
+
                 request = dialogflow_v2.UpdateGeneratorRequest(
+                    generator=generator,
                 )
 
                 # Make the request

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -341,7 +341,7 @@ class OnlineReturnPolicyServiceGrpcAsyncIOTransport(OnlineReturnPolicyServiceTra
     ]:
         r"""Return a callable for the get online return policy method over gRPC.
 
-        Gets an existing return policy.
+        Gets an existing return policy for a given business.
 
         Returns:
             Callable[[~.GetOnlineReturnPolicyRequest],
@@ -370,7 +370,8 @@ class OnlineReturnPolicyServiceGrpcAsyncIOTransport(OnlineReturnPolicyServiceTra
     ]:
         r"""Return a callable for the list online return policies method over gRPC.
 
-        Lists all existing return policies.
+        Lists all existing return policies for a given
+        business.
 
         Returns:
             Callable[[~.ListOnlineReturnPoliciesRequest],

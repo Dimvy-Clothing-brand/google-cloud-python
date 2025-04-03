@@ -4,6 +4,21 @@
 
 [1]: https://pypi.org/project/google-cloud-automl/#history
 
+## [2.16.3](https://github.com/googleapis/google-cloud-python/compare/google-cloud-automl-v2.16.2...google-cloud-automl-v2.16.3) (2025-03-15)
+
+
+### Bug Fixes
+
+* [Many APIs] Allow Protobuf 6.x ([3a85796](https://github.com/googleapis/google-cloud-python/commit/3a85796774ebf728cbc9e82dc536316530ac78c1))
+* remove setup.cfg configuration for creating universal wheels ([#13659](https://github.com/googleapis/google-cloud-python/issues/13659)) ([59bfd42](https://github.com/googleapis/google-cloud-python/commit/59bfd42cf8a2eaeed696a7504890bce5aae815ce))
+
+## [2.16.2](https://github.com/googleapis/google-cloud-python/compare/google-cloud-automl-v2.16.1...google-cloud-automl-v2.16.2) (2025-03-03)
+
+
+### Bug Fixes
+
+* allow google-cloud-storage 3.x ([#13587](https://github.com/googleapis/google-cloud-python/issues/13587)) ([f62368e](https://github.com/googleapis/google-cloud-python/commit/f62368e7176d16a1c70edee0a70b0121eb56ca53))
+
 ## [2.16.1](https://github.com/googleapis/google-cloud-python/compare/google-cloud-automl-v2.16.0...google-cloud-automl-v2.16.1) (2025-02-18)
 
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -251,6 +251,11 @@ class CloudFilestoreManagerTransport(abc.ABC):
                 default_timeout=600.0,
                 client_info=client_info,
             ),
+            self.promote_replica: gapic_v1.method.wrap_method(
+                self.promote_replica,
+                default_timeout=None,
+                client_info=client_info,
+            ),
             self.get_location: gapic_v1.method.wrap_method(
                 self.get_location,
                 default_timeout=None,
@@ -463,6 +468,15 @@ class CloudFilestoreManagerTransport(abc.ABC):
         self,
     ) -> Callable[
         [cloud_filestore_service.UpdateBackupRequest],
+        Union[operations_pb2.Operation, Awaitable[operations_pb2.Operation]],
+    ]:
+        raise NotImplementedError()
+
+    @property
+    def promote_replica(
+        self,
+    ) -> Callable[
+        [cloud_filestore_service.PromoteReplicaRequest],
         Union[operations_pb2.Operation, Awaitable[operations_pb2.Operation]],
     ]:
         raise NotImplementedError()
